@@ -1,14 +1,14 @@
-This repo serves as a bootloader and interface for Lua programs on the RP2040. It also includes a file system for requiring and loading files from flash (See [littlefs] (https://github.com/littlefs-project/littlefs)).
+This repo serves as a bootloader and interface for Lua programs on the RP2040. It also includes a file system for requiring and loading files from flash (See littlefs[1]).
 
 A 'init.lua' file must be present under files/ in order to boot. The files are then built into the executable.
 
-# BUILD DEPENDENCIES
-Besides the dependencies required for pico-sdk, you will need to install https://github.com/vppillai/littlefs_tools.
+1. BUILD DEPENDENCIES
+Besides the dependencies required for pico-sdk, you will need to install littlefs_tools[2]
 
 
-# PROGRESS
+2. INTERFACE
 +--------------+-----+
-|pico.gpio     |TODO |
+|pico.gpio     |BASIC|
 +--------------+-----+
 |pico.pio      |TODO |
 +--------------+-----+
@@ -17,7 +17,7 @@ Besides the dependencies required for pico-sdk, you will need to install https:/
 |pico.usb      |TODO |
 +--------------+-----+
 
-# LICENSE
+3. LICENSE
 Copyright (C) 2023
 
 This program is free software: you can redistribute it and/or modify
@@ -32,3 +32,6 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+[1]: https://github.com/littlefs-project/littlefs
+[2]: https://github.com/vppillai/littlefs_tools
