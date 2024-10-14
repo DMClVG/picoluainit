@@ -1,6 +1,6 @@
 This repo serves as a bootloader and interface for Lua programs on the RP2040. It also includes a file system for requiring and loading files from flash (See littlefs[1]).
 
-A 'init.lua' file must be present under files/ in order to boot. The files are then built into the executable.
+A 'init.lua' file must be present under files/ in order to boot. Those files are then built into the executable.
 
 1. BUILD DEPENDENCIES
 Besides the dependencies required for pico-sdk, you will need to install littlefs_tools[2]
